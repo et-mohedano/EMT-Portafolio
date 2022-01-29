@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<title>emohedano | Web</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+        onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item w3-button btn-transition">INICIO</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small btn-transition"><i class="fa fa-user"></i> ACERCA DE
+        MÍ</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small btn-transition"><i class="fa fa-th"></i>
+        PORTAFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small btn-transition"><i class="fa fa-envelope"></i>
+        CONTACTO</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#about" class="w3-bar-item w3-button " onclick="toggleFunction()">ACERCA DE MÍ</a>
+      <a href="#portfolio" class="w3-bar-item w3-button " onclick="toggleFunction()">PORTAFOLIO</a>
+      <a href="#contact" class="w3-bar-item w3-button " onclick="toggleFunction()">CONTACTO</a>
+    </div>
+  </div>
+
+  <!-- First Parallax Image with Logo Text -->
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space: nowrap">
+      <div class="w3-center w3-margin-bottom principal-title">
+        <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Efrain Mohedano <span
+            class="w3-hide-small">Torres</span></span>
+      </div>
+      <div class="w3-center principal-title">
+        <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">Desarrollador Web</span>
+      </div>
+      <div class="w3-center">
+        <a href="#contact" class="w3-button w3-black w3-center w3-section w3-xlarge btn-transition">
+          <i class="fa fa-paper-plane"></i> ¡Hablemos!
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (About Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ACERCA DE MÍ</h3>
+    <p class="w3-center">
+      <em>"Entendamos la ciencia a través del código"</em>
+    </p>
+    <p>
+      Soy un desarrollador de software que cursa el último grado de Ingeniería
+      en Tecnologías de la Información con formación técnica en Programación
+      que busca acercar la Ciencia de Datos e Inteligencia Artificial a la
+      sociedad por medio del código.
+    </p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p>
+          <b><i class="fa fa-user w3-margin-right"></i>Efrain Mohedano</b>
+        </p>
+        <br />
+        <img src="images/myself.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off btn-transition"
+          alt="Photo of Me" width="500" height="333" />
+      </div>
+
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>
+          Me considero un desarrollador de Software que ha encontrado una
+          afición por las tecnologías web, en especial con su funcionalidad en
+          el lado de los servidores y bases de datos, sin descuidar su
+          presentación y la experiencia con el usuario. Pero siempre me
+          resulta más divertido cuando la ciencia está presente.
+        </p>
+        <p>
+          Mi enfoque de desarrollo está en las plataformas web responsivas, en
+          donde tengo experiencia en la creación de sistemas digitales para la
+          gestión de información, automatización de procesos de captura de
+          datos, generación y extracción de reportes, aplicación de
+          estadística descriptiva y predictiva a conjuntos de datos para
+          sistemas complejos y la creación, diseño e implementación de bases
+          de datos relacionales a sistemas digitales.
+        </p>
+        <p>
+          Conozco la importancia de la ciencia en la tecnología, por lo que siempre me gusta experimentar con la algoritmia para proponer soluciones a los problemas empresariales presentes.
+        </p>
+      </div>
+    </div>
+    <p class="w3-large w3-center w3-padding-16">Habilidades de desarrollo:</p>
+    <p class="w3-wide"><i class="fa fa-code"></i>Programación Web Backend</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 90%">
+        90%
+      </div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-laptop"></i>Diseño de Interfaces</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 80%">
+        80%
+      </div>
+    </div>
+    <p class="w3-wide">
+      <i class="fa fa-database"></i>Administración de Bases de Datos
+    </p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 80%">
+        80%
+      </div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-flask"></i>Creación de Algoritmos</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width: 85%">
+        85%
+      </div>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Herramientas de desarrollo:</p>
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16" id="tools-images">
+    <div class="w3-quarter w3-section">
+      <div>
+        <img src="images/technologies/laravel.png" alt="" />
+        <p>PHP (Laravel)</p>
+      </div>
+      <div>
+        <img src="images/technologies/django.png" alt="" />
+        <p>Python (Django)</p>
+      </div>
+    </div>
+    <div class="w3-quarter w3-section">
+      <div>
+        <img src="images/technologies/react.png" alt="" />
+        <p>Javascript (React, Jquery)</p>
+      </div>
+      <div>
+        <img src="images/technologies/html.png" alt="" />
+        <p>HTML5</p>
+      </div>
+    </div>
+    <div class="w3-quarter w3-section">
+      <div>
+        <img src="images/technologies/bootstrap.png" alt="" />
+        <p>Css (Bootstrap)</p>
+      </div>
+      <div>
+        <img src="images/technologies/wordpress.png" alt="" />
+        <p>Wordpress</p>
+      </div>
+    </div>
+    <div class="w3-quarter w3-section">
+      <div>
+        <img src="images/technologies/git.png" alt="" />
+        <p>Git</p>
+      </div>
+      <div>
+        <img src="images/technologies/docker.png" alt="" />
+        <p>Docker</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Parallax Image with Portfolio Text -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">MIS TRABAJOS</h3>
+    <p class="w3-center">
+      <em>"Los buenos resultados vienen de la experiencia"</em><br />
+      Hacer click en las imagenes para ver más a detalle
+    </p>
+    <br />
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m3">
+        <img src="images/works/upmh-cafeteria.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistema de compra y venta | Cafeteria UPMH" title="Sistema de compra y venta | Cafeteria UPMH" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/celcom.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistmea de gestión de información | CelCom" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/kubrick.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Kubrick Game 2D" title="Kubrick Game 2D" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/GSW.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistema web de gestión de almacén | El Chapulín"
+          title="Sistema web de gestión de almacén | El Chapulín" />
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m3">
+        <img src="images/works/verificentro.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistema gestor de información | Verificentro" title="Sistema gestor de información | Verificentro" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/djangoblog.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistema gestor de blogs | Django" title="Sistema gestor de blogs | Django" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/codificador.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Codificador demensajes con Álgebra Lineal | UPMH"
+          title="Codificador demensajes con Álgebra Lineal | UPMH" />
+      </div>
+
+      <div class="w3-col m3">
+        <img src="images/works/TOs.png" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Sistema de gestión de TOs | Bombardier" title="Sistema de gestión de TOs | Bombardier" />
+      </div>
+      <a href="https://github.com/et-mohedano" target="_blank"
+        class="w3-button w3-padding-large w3-light-grey btn-transition" style="margin-top: 64px">
+        VER GITHUB
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+        class="fa fa-remove"></i></span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image" />
+      <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+  </div>
+
+  <!-- Third Parallax Image with Portfolio Text -->
+  <div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
+    </div>
+  </div>
+
+  <!-- Container (Contact Section) -->
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">COMUNÍCATE CONMIGO</h3>
+    <p class="w3-center"><em>"El preguntar nunca es errar"</em></p>
+
+    <div class="w3-row w3-padding-32 w3-section w3-center">
+      <div class="w3-col m12 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+          Hidalgo, MX<br />
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
+          Email: et.mohedano@gmail.com<br />
+        </div>
+        <p>
+          <i class="fa fa-comments"></i> Déjame una nota:
+        </p>
+        <form action="javascript:enviarCorreo()">
+          <div class="w3-row-padding" style="margin: 0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Nombre" required id="nombreCorreo" />
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="email" placeholder="Email" required id="Email" />
+            </div>
+          </div>
+          <textarea class="w3-input w3-border" placeholder="Mensaje" required id="msjCorreo" rows="4"></textarea>
+          <button class="w3-button w3-black w3-right w3-section btn-transition" type="submit">
+            <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off btn-transition">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir arriba</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/efrain.mohedano"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/emohedano_t"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://twitter.com/et_mohedano"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+      <a href="www.linkedin.com/in/efrain-mohedano-torres"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    </div>
+  </footer>
+  <script src="jquery/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
